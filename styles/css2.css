@@ -1,0 +1,43 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url(../images/bg2.jpg);
+}
+#container{
+
+	position:relative;
+	width:980px;
+	height:auto;
+	min-height:460px;
+	overflow:hidden;
+	clear:both;
+	margin:auto;
+        height: 650px;
+}
+#logo{
+	margin-top:20px;
+}
+#content-column-left
+{
+	position:relative;
+	float:left;
+	width:610px;
+	height:auto;
+	overflow:inherent;
+	margin-bottom:0px;
+}
+
+#content-column-right
+{
+	position:relative;
+	float:right;
+	width:305px;
+	height:auto;
+	overflow:hidden;
+	margin-top:20px;
+	margin-right:10px;
+	padding: 20px;
+	background-image:url(../images/loginBG.png);
+}
+p.checkbox {display:block;float:left;width:170px;margin-top:3px;font-size: 12px;}
+p.passforgot {display:block;float:right;width:120px;margin-top:3px !important;font-size: 12px;text-align: right;}
